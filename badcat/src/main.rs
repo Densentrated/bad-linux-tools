@@ -14,18 +14,20 @@ fn main() {
     content= content.replace("l", "w");
     content = content.replace("r", "w");
     
+    //TODO replace "the" with "da"
+    
     // replaces "th" with "ff"
     let mut i = 0;
     while i < content.len() {
         if (content.chars().nth(i) == Some('t')){
-            println!("t Character!");
             if (content.chars().nth(i+1) == Some('h') || content.chars().nth(i+1) == Some('H')){
-                println!("h Character!");
                 content.replace_range(i..i+2, "ff");
             }
         }
         i += 1;
     }
+
+    //TODO replaces "n" with "ny"
 
     // prints the changed content
     println!("{}", content);   
