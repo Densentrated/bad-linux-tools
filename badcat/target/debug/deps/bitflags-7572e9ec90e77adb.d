@@ -1,0 +1,11 @@
+/home/densentrated/Documents/GitHub/bad-linux-tools/badcat/target/debug/deps/bitflags-7572e9ec90e77adb.rmeta: /home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/lib.rs /home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/iter.rs /home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/parser.rs /home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/traits.rs /home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/public.rs /home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/internal.rs /home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/external.rs
+
+/home/densentrated/Documents/GitHub/bad-linux-tools/badcat/target/debug/deps/bitflags-7572e9ec90e77adb.d: /home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/lib.rs /home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/iter.rs /home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/parser.rs /home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/traits.rs /home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/public.rs /home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/internal.rs /home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/external.rs
+
+/home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/lib.rs:
+/home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/iter.rs:
+/home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/parser.rs:
+/home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/traits.rs:
+/home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/public.rs:
+/home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/internal.rs:
+/home/densentrated/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-2.3.3/src/external.rs:
