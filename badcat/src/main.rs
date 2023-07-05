@@ -47,6 +47,9 @@ fn main() {
     }
  **/
 
+//TODO insert /(o-o)/ type characters randomly throughout the text
+
+
     // prints the changed content
     println!("{}", content);   
 }
