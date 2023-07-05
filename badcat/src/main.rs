@@ -14,7 +14,7 @@ fn main() {
     content= content.replace("l", "w");
     content = content.replace("r", "w");
     
-    //TODO replace "the" with "da"
+    //TODO switch from while to for loop"
     
     // replaces "th" with "ff"
     let mut i = 0;
@@ -27,7 +27,25 @@ fn main() {
         i += 1;
     }
 
-    //TODO replaces "n" with "ny"
+    //TODO switch form while to for loop"
+    let mut i = 0;
+    while i < content.len() {
+        if (content.chars().nth(i) == Some('n') && content.chars().nth(i + 1) == Some('!')) {
+            content.insert(i+1, 'y');
+            content.insert(i+2, 'a')
+        }
+        i += 1;
+    }
+
+
+
+/**
+    for char in content.chars(){
+        if (char == n) {
+            content.insert(,y);
+        }
+    }
+ **/
 
     // prints the changed content
     println!("{}", content);   
