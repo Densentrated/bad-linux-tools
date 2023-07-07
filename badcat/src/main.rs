@@ -1,4 +1,5 @@
 #![allow(unused)]
+#![allow(non_snake_case)]
 use clap::Parser;
 use rand::Rng;
 
@@ -8,9 +9,11 @@ struct Cli {
 }
 
 fn main() {
+
     let args: Cli = Cli::parse();
     let mut content: String = std::fs::read_to_string(&args.filepath).expect("could not read file");
-    let kaomoji_list: Vec<&str> = vec!["(o^▽^o)", "<(￣︶￣)>", "ヽ(・∀・)ﾉ", "(o･ω･o)", "(o´▽`o)", "(*´▽`*)", "(o´∀`o)"] ;
+
+
 
     // replaces "l and r" characters with "w" characters
     content= content.replace("l", "w");
@@ -36,7 +39,10 @@ fn main() {
 
         // inserts random kaomoji into the text
         if content.chars().nth(i) == Some(' ') {
-            let random_number: i32 = rand::thread_rng().gen_range(0..20);
+            let randomNumber: i32 = rand::thread_rng().gen_range(0..20);
+            if (randomNumber == 8){
+                content.insert(i+2, '=');
+            }
         }
         
         // update iteraator varaible
