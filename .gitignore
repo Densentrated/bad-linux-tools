@@ -1,0 +1,23 @@
+# Ignore Rust build directories
+**/target/
+
+# Ignore Rust compiled files
+**/*.rs.bk
+**/*.rs~
+
+# Ignore Cargo files
+**/Cargo.lock
+**/Cargo.toml.orig
+
+# Ignore IDE and editor files
+**/.idea/
+**/.vscode/
+**/*.swp
+**/*.swo
+**/*.bak
+**/*.tmp
+**/*.log
+
+# Ignore OS-specific files
+**/.DS_Store
+**/Thumbs.db
