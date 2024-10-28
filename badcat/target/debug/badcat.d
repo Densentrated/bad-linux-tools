@@ -1,1 +1,1 @@
-/home/densentrated/Documents/GitHub/bad-linux-tools/badcat/target/debug/badcat: /home/densentrated/Documents/GitHub/bad-linux-tools/badcat/src/main.rs
+/home/dense/Projects/bad-linux-tools/badcat/target/debug/badcat: /home/dense/Projects/bad-linux-tools/badcat/src/main.rs
